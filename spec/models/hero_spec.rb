@@ -1,5 +1,12 @@
 require 'spec_helper'
 
 describe Hero do
-  pending "add some examples to (or delete) #{__FILE__}"
+
+  describe "model" do
+    it "has a valid factory" do
+      h = FactoryGirl.create(:hero)
+      expect h.name.to
+    end
+  end
+
 end
