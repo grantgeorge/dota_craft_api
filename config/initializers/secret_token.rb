@@ -10,10 +10,10 @@
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
 
-# Although this is not needed for an api-only application, rails4 
-# requires secret_key_base or secret_token to be defined, otherwise an 
+# Although this is not needed for an api-only application, rails4
+# requires secret_key_base or secret_token to be defined, otherwise an
 # error is raised.
 # Using secret_token for rails3 compatibility. Change to secret_key_base
 # to avoid deprecation warning.
 # Can be safely removed in a rails3 api-only application.
-DotoApi::Application.config.secret_token = '0bd0da68bd490c2671907a24aae3510a62c7ff9987e2cae7fc6dd95c4760e7a57133d9d21087a524b97dfbf2934303d488da263a4aade32afe7ea239371b4d87'
+DotaCraftApi::Application.config.secret_token = '0bd0da68bd490c2671907a24aae3510a62c7ff9987e2cae7fc6dd95c4760e7a57133d9d21087a524b97dfbf2934303d488da263a4aade32afe7ea239371b4d87'
